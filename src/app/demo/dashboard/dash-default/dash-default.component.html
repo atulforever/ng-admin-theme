@@ -1,0 +1,82 @@
+<div class="row">
+  
+  <div class="col-xl-5 col-sm-12">
+    <div class="row">
+      <div class="col-md-6">
+        <app-card [hidHeader]="true" [isCardFooter]="true" footerClass="bg-c-yellow">
+          <div class="row align-items-center">
+            <div class="col-8">
+              <h4 class="text-c-yellow">$10000</h4>
+              <h6 class="text-muted m-b-0">All Earnings</h6>
+            </div>
+            <div class="col-4 text-right">
+              <i class="feather icon-bar-chart-2 f-28"></i>
+            </div>
+          </div>
+          <div class="app-card-footer">
+            <div class="row align-items-center">
+              <div class="col-9">
+                <p class="text-white m-b-0">% change</p>
+              </div>
+              <div class="col-3 text-right">
+                <i class="feather icon-trending-up text-white f-16"></i>
+              </div>
+            </div>
+          </div>
+        </app-card>
+      </div>
+      
+    </div>
+  </div>
+  <!-- site Analytics card end -->
+
+  <!-- project and team member start -->
+  <div class="col-xl-6 col-md-12">
+    <app-card cardTitle="Projects" cardClass="table-card" blockClass="p-0">
+      <div class="table-responsive">
+        <table class="table table-hover mb-0">
+          <thead>
+            <tr>
+              <th>
+                <div class="chk-option">
+                  <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                    <input type="checkbox" class="custom-control-input">
+                    <span class="custom-control-label"></span>
+                  </label>
+                </div>
+                Assigned
+              </th>
+              <th>Name</th>
+              <th>Due Date</th>
+              <th class="text-right">Priority</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="chk-option">
+                  <label class="check-task custom-control custom-checkbox d-flex justify-content-center done-task">
+                    <input type="checkbox" class="custom-control-input">
+                    <span class="custom-control-label"></span>
+                  </label>
+                </div>
+                <div class="d-inline-block align-middle">
+                  <img src="assets/images/user/avatar-4.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                  <div class="d-inline-block">
+                    <h6>Atul Patel</h6>
+                    <p class="text-muted m-b-0">Full Stack Dev</p>
+                  </div>
+                </div>
+              </td>
+              <td>In</td>
+              <td>Jun, 26</td>
+              <td class="text-right"><label class="badge badge-light-success">High</label></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </app-card>
+  </div>
+
+</div>
